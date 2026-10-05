@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+}
+nav {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.student-count {
+    width: 200px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f6f8;
+    border-radius: 10px;
+}
+
+.student-count h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.search-form {
+    width: 100%;
+    margin: 0 auto 10px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input {
+    flex: 1;
+    width: auto;
+    margin: 0;
+}
+
+.search-form button {
+    width: 100px;
+    flex-shrink: 0;
+    background-color: #333;
+    color: white;
+}
+
+.search-form {
+    padding-bottom: 40px;
+}
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    margin: 2px;
+}
+
+.edit-btn {
+    background-color: #333;
+}
+
+.delete-btn {
+    background-color: #b33;
+}
+
+.edit-btn:hover {
+    background-color: #555;
+}
+
+.delete-btn:hover {
+    background-color: #d44;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}

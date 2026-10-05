@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav>
+            <a href="{% url 'student_list' %}">Students</a>
+            <a href="{% url 'add_student' %}">Add Student</a>
+        </nav>
+
+        <h1>Student Management System</h1>
+
+        <p style="text-align: center;">
+            Manage student information easily.
+        </p>
+        <div class="student-count">
+        <h2>{{ total_students }}</h2>
+        <p>Total Students</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
